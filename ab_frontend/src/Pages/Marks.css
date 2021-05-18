@@ -1,0 +1,13 @@
+.marks_pages{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#marks-form{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}

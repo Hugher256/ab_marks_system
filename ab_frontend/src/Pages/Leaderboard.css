@@ -1,0 +1,10 @@
+.leaderboard{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.leaderboard-container{
+    width: 50%;
+    margin: auto;
+}
