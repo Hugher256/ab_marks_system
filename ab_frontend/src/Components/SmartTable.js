@@ -194,7 +194,7 @@ const useStyles = makeStyles((theme) => ({
 export default function EnhancedTable({data}) {
   const rows = data
   const classes = useStyles();
-  const [order, setOrder] = React.useState('asc');
+  const [order, setOrder] = React.useState('desc');
   const [orderBy, setOrderBy] = React.useState('total_marks');
   const [selected, setSelected] = React.useState([]);
   const [page, setPage] = React.useState(0);

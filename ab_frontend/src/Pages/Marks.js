@@ -25,7 +25,8 @@ const useStyles = makeStyles((theme) => ({
 
 function Marks() {
     const classes = useStyles();
-    const BACKEND_URL = 'http://127.0.0.1:8000/marks/'
+    const BACKEND_URL = process.env.NODE_ENV === 'development' ? 'http://127.0.0.1:8000/' : 'https://ab-marks-backend.herokuapp.com/marks/'
+
 
     const [states, setStates] = useState({
         rollNo : '',
